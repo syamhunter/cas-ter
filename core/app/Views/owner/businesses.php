@@ -1,0 +1,34 @@
+<?php
+/** @var string $base @var string $csrf @var array $tenant @var array $branch @var array $businesses @var array $availableModules @var int $activeBranches */
+$e = static fn($value): string => htmlspecialchars((string) $value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
+$branchLimit = $tenant['max_branches'] !== null ? (int) $tenant['max_branches'] : null;
+$quotaFull = $branchLimit !== null && $activeBranches >= $branchLimit;
+?>
+<div class="row g-3 mb-3">
+  <section class="col-xl-7"><form method="post" action="<?= $e($base) ?>/owner/business/profile" class="card">
+    <div class="card-header"><strong>Profil usaha terpilih</strong><div class="small text-muted">Pengaturan alamat berlaku pada cabang yang sedang aktif.</div></div>
+    <div class="card-body row g-3"><input type="hidden" name="_csrf" value="<?= $e($csrf) ?>">
+      <div class="col-md-6"><label class="form-label small fw-semibold" for="businessName">Nama usaha</label><input class="form-control" id="businessName" name="business_name" maxlength="150" required value="<?= $e($tenant['name']) ?>"></div>
+      <div class="col-md-6"><label class="form-label small fw-semibold" for="businessPhone">Telepon usaha</label><input class="form-control" id="businessPhone" name="phone" maxlength="30" value="<?= $e($tenant['phone'] ?? '') ?>" autocomplete="tel"></div>
+      <div class="col-12"><label class="form-label small fw-semibold" for="businessAddress">Alamat cabang / nota</label><textarea class="form-control" id="businessAddress" name="address" rows="2" maxlength="1000"><?= $e($branch['address'] ?? '') ?></textarea></div>
+      <div class="col-md-4"><label class="form-label small fw-semibold" for="branchTaxPct">Tarif pajak (%)</label><input class="form-control" id="branchTaxPct" name="tax_pct" type="number" min="0" max="100" step="0.01" required value="<?= $e($branch['tax_pct']) ?>"></div>
+      <div class="col-md-8"><label class="form-label small fw-semibold" for="branchTaxMode">Cara menghitung pajak</label><select class="form-select" id="branchTaxMode" name="tax_mode" required><option value="none" <?= $branch['tax_mode']==='none'?'selected':'' ?>>Tidak dikenakan pajak</option><option value="exclusive" <?= $branch['tax_mode']==='exclusive'?'selected':'' ?>>Tambahkan ke total</option><option value="inclusive" <?= $branch['tax_mode']==='inclusive'?'selected':'' ?>>Termasuk harga</option></select><div class="form-text">Berlaku pada transaksi baru di cabang terpilih.</div></div>
+      <div class="col-12"><span class="form-label small fw-semibold d-block mb-2">Bidang usaha aktif</span><div class="row g-2"><?php foreach ($availableModules as $module): ?><div class="col-sm-6"><label class="business-module-choice d-flex align-items-start gap-2 p-2"><input class="form-check-input mt-1" type="checkbox" name="modules[]" value="<?= $e($module['code']) ?>" <?= $module['active']?'checked':'' ?>><span><strong class="d-block small"><?= $e($module['name']) ?></strong><span class="small text-muted"><?= $e($module['summary']) ?></span></span></label></div><?php endforeach; ?></div></div>
+      <div class="col-12 d-flex flex-wrap justify-content-between align-items-center gap-2"><span class="small text-muted">Pilihan modul dibatasi paket bersama.</span><button class="btn btn-primary" type="submit">Simpan profil</button></div>
+    </div>
+  </form></section>
+  <aside class="col-xl-5"><div class="card h-100"><div class="card-header d-flex justify-content-between align-items-center"><div><strong>Usaha dalam akun</strong><div class="small text-muted"><?= count($businesses) ?> usaha · <?= $activeBranches ?> cabang aktif<?= $branchLimit !== null ? ' / ' . $branchLimit : '' ?></div></div><span class="badge text-bg-light border"><?= $e($tenant['plan_name']) ?></span></div>
+    <div class="list-group list-group-flush"><?php foreach ($businesses as $business): ?><div class="list-group-item d-flex justify-content-between align-items-center gap-2"><div><strong class="d-block"><?= $e($business['name']) ?></strong><span class="small text-muted"><?= $e($business['branch_name'] ?? 'Belum ada cabang') ?></span></div><?php if ((int)$business['id'] === (int)$tenant['id']): ?><span class="badge text-bg-primary">Aktif</span><?php else: ?><form method="post" action="<?= $e($base) ?>/owner/business/switch" class="m-0"><input type="hidden" name="_csrf" value="<?= $e($csrf) ?>"><input type="hidden" name="tenant_id" value="<?= (int)$business['id'] ?>"><button class="btn btn-outline-secondary btn-sm">Pilih</button></form><?php endif; ?></div><?php endforeach; ?></div>
+  </div></aside>
+</div>
+<details class="card" id="add-business" <?= isset($_GET['new']) ? 'open' : '' ?>><summary class="card-header package-summary fw-semibold">Tambah usaha lain</summary>
+  <form method="post" action="<?= $e($base) ?>/owner/businesses" class="card-body row g-3"><input type="hidden" name="_csrf" value="<?= $e($csrf) ?>">
+    <div class="col-md-6"><label class="form-label small fw-semibold" for="newBusinessName">Nama usaha</label><input class="form-control" id="newBusinessName" name="business_name" maxlength="150" required placeholder="Nama usaha"></div>
+    <div class="col-md-6"><label class="form-label small fw-semibold" for="newBranchName">Nama cabang pertama</label><input class="form-control" id="newBranchName" name="branch_name" maxlength="150" required value="Cabang Utama"></div>
+    <div class="col-md-6"><label class="form-label small fw-semibold" for="newBusinessPhone">Telepon</label><input class="form-control" id="newBusinessPhone" name="phone" maxlength="30" autocomplete="tel"></div>
+    <div class="col-md-6"><label class="form-label small fw-semibold" for="newBusinessAddress">Alamat</label><input class="form-control" id="newBusinessAddress" name="address" maxlength="1000"></div>
+    <div class="col-12"><span class="form-label small fw-semibold d-block">Bidang usaha</span><div class="row g-2"><?php foreach ($availableModules as $module): ?><div class="col-sm-6 col-lg-4"><label class="business-module-choice d-flex align-items-start gap-2 p-2"><input class="form-check-input mt-1" type="checkbox" name="modules[]" value="<?= $e($module['code']) ?>"><span><strong class="d-block small"><?= $e($module['name']) ?></strong><span class="small text-muted"><?= $e($module['summary']) ?></span></span></label></div><?php endforeach; ?></div></div>
+    <div class="col-12 d-flex flex-wrap justify-content-between align-items-center gap-2"><span class="small text-muted">Kuota cabang digunakan bersama oleh semua usaha.</span><button class="btn btn-primary" type="submit" <?= $quotaFull?'disabled':'' ?>>Buat usaha</button></div>
+    <?php if ($quotaFull): ?><div class="col-12"><div class="alert alert-warning py-2 mb-0">Kuota cabang paket bersama sudah penuh. Hubungi administrator untuk upgrade.</div></div><?php endif; ?>
+  </form>
+</details>

@@ -1,0 +1,92 @@
+[15-Oct-2026 08:25:35 Asia/Jakarta] [install] SQLSTATE[HY000] [1045] Access denied for user 'Admin'@'localhost' (using password: YES)
+[16-Oct-2026 10:50:28 Asia/Jakarta] [install] SQLSTATE[HY000] [1045] Access denied for user 'huda'@'localhost' (using password: YES)
+[16-Oct-2026 10:52:47 Asia/Jakarta] [install] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[16-Oct-2026 10:56:19 Asia/Jakarta] [install] SQLSTATE[HY000] [1045] Access denied for user 'database'@'localhost' (using password: YES)
+[16-Oct-2026 11:33:58 Asia/Jakarta] [fatal] syntax error, unexpected token "public" @ C:\xampp-new\htdocs\core\app\Controllers\OwnerController.php:248
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 67
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 67
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 83
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 83
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 89
+[17-Oct-2026 04:15:39 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 89
+[17-Oct-2026 04:17:10 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 67
+[17-Oct-2026 04:17:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 67
+[17-Oct-2026 04:17:10 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:17:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:17:10 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:17:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 74
+[17-Oct-2026 04:17:10 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 89
+[17-Oct-2026 04:17:10 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 89
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 73
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 73
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 95
+[17-Oct-2026 04:26:45 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 95
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 73
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 73
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 80
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 89
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 89
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Undefined variable $sidebarIcons in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 95
+[17-Oct-2026 04:27:21 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in C:\xampp-new\htdocs\core\app\Views\partials\sidebar.php on line 95
+[19-Oct-2026 07:09:43 Asia/Jakarta] PHP Warning:  Undefined array key "pdo" in C:\xampp-new\htdocs\core\app\Controllers\SupportController.php on line 359
+[19-Oct-2026 07:09:43 Asia/Jakarta] [fatal] Call to a member function prepare() on null @ C:\xampp-new\htdocs\core\app\Controllers\SupportController.php:359
+[19-Oct-2026 07:09:45 Asia/Jakarta] PHP Warning:  Undefined array key "pdo" in C:\xampp-new\htdocs\core\app\Controllers\SupportController.php on line 359
+[19-Oct-2026 07:09:45 Asia/Jakarta] [fatal] Call to a member function prepare() on null @ C:\xampp-new\htdocs\core\app\Controllers\SupportController.php:359
+[19-Oct-2026 07:09:45 Asia/Jakarta] PHP Warning:  Undefined array key "pdo" in C:\xampp-new\htdocs\core\app\Controllers\SupportController.php on line 359
+[19-Oct-2026 07:09:45 Asia/Jakarta] [fatal] Call to a member function prepare() on null @ C:\xampp-new\htdocs\core\app\Controllers\SupportController.php:359
+[19-Oct-2026 07:09:46 Asia/Jakarta] PHP Warning:  Undefined array key "pdo" in C:\xampp-new\htdocs\core\app\Controllers\SupportController.php on line 359
+[19-Oct-2026 07:09:46 Asia/Jakarta] [fatal] Call to a member function prepare() on null @ C:\xampp-new\htdocs\core\app\Controllers\SupportController.php:359
+[19-Oct-2026 07:09:46 Asia/Jakarta] PHP Warning:  Undefined array key "pdo" in C:\xampp-new\htdocs\core\app\Controllers\SupportController.php on line 359
+[19-Oct-2026 07:09:46 Asia/Jakarta] [fatal] Call to a member function prepare() on null @ C:\xampp-new\htdocs\core\app\Controllers\SupportController.php:359
+[19-Oct-2026 07:09:46 Asia/Jakarta] PHP Warning:  Undefined array key "pdo" in C:\xampp-new\htdocs\core\app\Controllers\SupportController.php on line 359
+[19-Oct-2026 07:09:46 Asia/Jakarta] [fatal] Call to a member function prepare() on null @ C:\xampp-new\htdocs\core\app\Controllers\SupportController.php:359
+[19-Oct-2026 07:09:46 Asia/Jakarta] PHP Warning:  Undefined array key "pdo" in C:\xampp-new\htdocs\core\app\Controllers\SupportController.php on line 359
+[19-Oct-2026 07:09:46 Asia/Jakarta] [fatal] Call to a member function prepare() on null @ C:\xampp-new\htdocs\core\app\Controllers\SupportController.php:359
+[19-Oct-2026 07:09:46 Asia/Jakarta] PHP Warning:  Undefined array key "pdo" in C:\xampp-new\htdocs\core\app\Controllers\SupportController.php on line 359
+[19-Oct-2026 07:09:46 Asia/Jakarta] [fatal] Call to a member function prepare() on null @ C:\xampp-new\htdocs\core\app\Controllers\SupportController.php:359
+[19-Oct-2026 07:20:27 Asia/Jakarta] PHP Warning:  Undefined array key "pdo" in C:\xampp-new\htdocs\core\app\Controllers\SupportController.php on line 359
+[19-Oct-2026 07:20:27 Asia/Jakarta] [fatal] Call to a member function prepare() on null @ C:\xampp-new\htdocs\core\app\Controllers\SupportController.php:359
+[19-Oct-2026 07:27:36 Asia/Jakarta] PHP Warning:  Undefined array key "pdo" in C:\xampp-new\htdocs\core\app\Controllers\SupportController.php on line 359
+[19-Oct-2026 07:27:36 Asia/Jakarta] [fatal] Call to a member function prepare() on null @ C:\xampp-new\htdocs\core\app\Controllers\SupportController.php:359
+[19-Oct-2026 07:28:29 Asia/Jakarta] PHP Warning:  Undefined variable $base in C:\xampp-new\htdocs\core\app\Views\admin\tickets.php on line 8
